@@ -1,4 +1,4 @@
-from pulp import LpProblem,LpVariable,lpSum
+from pulp import LpProblem,LpVariable,lpSum,PULP_CBC_CMD
 from dataclasses import dataclass
 from numpy import array
 
@@ -35,7 +35,7 @@ class sudoku:
         #initial valus from sudoku to solve
         self.inputs = inputs
 
-        prob = LpProblem("Sudoku Problem")
+        prob = LpProblem("Sudoku_Problem")
 
         # The decision variables are created
         choices = LpVariable.dicts("Choice", 
@@ -68,7 +68,8 @@ class sudoku:
         for (v, r, c) in self.inputs:
             prob += choices[v][r][c] == 1
         #Problem solver
-        prob.solve()
+        solver = PULP_CBC_CMD(msg=False)
+        prob.solve(solver)
 
         #Get the desicion variables
         self.result_vars = array([[None]*9]*9)
