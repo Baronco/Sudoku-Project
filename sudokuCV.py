@@ -4,7 +4,7 @@ import os
 from matplotlib import pyplot as plt
 
 
-input_images_directory = "/content"
+input_images_directory = ".//img"
 
 def get_images(directory):
     files = os.listdir(directory)
