@@ -4,7 +4,7 @@ import os
 from matplotlib import pyplot as plt
 
 
-input_images_directory = "C:\\Users\\home\\Google Drive\\IO\\Sudoku Project"
+input_images_directory = "/content"
 
 def get_images(directory):
     files = os.listdir(directory)
