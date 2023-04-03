@@ -1,4 +1,7 @@
 *.jpg
 *.JPEG
 *.png
-in
+inputs.xlsm
+inputs.xlsx
+results.csv
+
