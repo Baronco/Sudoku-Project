@@ -1,8 +1,10 @@
 *.jpg
-Pil dataset images/*.JPEG
+*.png
+*.PNG
 *.JPEG
 *.png
-inputs.xlsm
-inputs.xlsx
-results.csv
+*.xlsm
+*.xlsx
+*.csv
+
 
