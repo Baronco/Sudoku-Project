@@ -1,5 +1,5 @@
 *.jpg
-Pil dataset images/*.JPEG
+*.JPEG
 *.png
 inputs.xlsm
 inputs.xlsx
