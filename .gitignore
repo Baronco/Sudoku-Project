@@ -1,10 +1,9 @@
-*.jpg
-*.png
-*.PNG
-*.JPEG
-*.png
-*.xlsm
-*.xlsx
 *.csv
-
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.xlsx
+*.xlsm
 
