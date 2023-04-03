@@ -1,3 +1,4 @@
+*.csv
 *.jpg
 *.jpeg
 *.png
@@ -5,3 +6,4 @@
 *.bmp
 *.xlsx
 *.xlsm
+
